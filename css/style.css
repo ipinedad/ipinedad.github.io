@@ -1,0 +1,122 @@
+/* For General HTML Styling */
+
+h1 {
+	font-family: Arial;
+	text-align: center;
+	
+}
+
+h2 {
+	font-family: Arial;
+	text-align: center;
+}
+
+h3{
+	font-family: Arial;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration:none;
+}
+
+p {
+	font-family: Arial;
+	font-size: 20px;
+	font-style: bold;
+	align-content: center;
+}
+
+img {
+
+	width: 400px;
+	height: 250px;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+body{
+	background: #f0ead6;
+}
+
+table {
+	padding: 5px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+tr {
+	padding: 5px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+a: link {
+	color: red;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+a:visted {
+	color: green;
+} 
+
+a:active {
+	color: blue;
+}
+
+a:focus {
+	color: orange;
+}
+/*Style Specific for Navigation Bar */
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navli {
+	float: left;
+}
+
+
+/* For Image Grid */
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.img {
+	padding: 8px;
+	box-sizing: border-box;
+	margin-bottom: 1px;
+	flex-basis: 30%;
+	flex-direction: center;
+}
+
+.link {
+	text-decoration: none; 
+}
+
+.data {
+	text-align: center;
+}
+
+
+

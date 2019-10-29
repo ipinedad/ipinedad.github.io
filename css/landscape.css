@@ -1,0 +1,81 @@
+h1 {
+	font-family: Arial;
+	text-align: center;
+	
+}
+
+h2 {
+	font-family: Arial;
+	text-align: center;
+}
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navli {
+	float: left;
+
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration:none;
+}
+
+p {
+	font-family: Arial;
+	font-size: 20px;
+	font-style: bold;
+	align-content: center;
+}
+
+body{
+	background: #f0ead6;
+}
+
+/* The image on line 24 of ballonfiesta overrides the style */
+img {
+	width: 500px;
+	height: auto;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+a:visted {
+	color: green;
+} 
+
+a:active {
+	color: blue;
+}
+
+a:focus {
+	color: orange;
+}
+
+/* For Image Grid */
+.flexbox {
+	display: flex;
+	justify-content: space-between;
+	flex-shrink: 0;
+}
+
+.column {
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	width: 49%;
+}
